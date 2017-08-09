@@ -1,0 +1,82 @@
+/*设置更多市场里面的内容*/
+.daohang1{
+    width: 257px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -1250px;
+}
+.daohang1>li{
+    width: 57px;
+    height: 29px;
+    border: 1px solid #fff;
+    border-bottom: none;
+   
+    position: relative;
+    left: -180px;
+    margin-top: 10px;
+    background: #fff;
+}
+.daohang1>li:hover{
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.daohang1>li:hover .daohang1-list{
+    display: block;
+    z-index: 100;
+}
+.daohang1>li:hover:after{
+    content: "";
+    width: 57px;
+    height: 1px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    z-index: 100;
+}
+.words-box{
+    width: 50px;
+    margin: 2px auto 0;
+
+}
+.words-box .iconfont{
+    color: #f10215;
+}
+.words-box span{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*定位列表*/
+.daohang1-list{
+    position: absolute;
+    width: 1800px;
+    height: 80px;
+    border: 1px solid #ccc;
+    background: #a9b992;
+    left: -1px;
+    top: 29px;
+    padding: 10px;
+    display: none;
+}
+
+.daohang1-list-1{
+    
+    float: left;
+}
+.daohang1-list .daohang1-list-1 li{
+    width: 170px;
+    height: 75px; 
+    margin-right: 50px;
+    
+}
+.daohang1-list .daohang1-list-1 p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.daohang1-list .daohang1-list-1 li>a{
+    float:left;
+    padding:0 5px;
+    color: #fff;
+}

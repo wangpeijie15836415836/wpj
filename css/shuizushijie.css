@@ -1,0 +1,418 @@
+.body{
+    background-color: #f5f5f5;
+}
+/*设置首部*/
+.head{
+    width: 1230px;
+    height: 150px;
+    margin: 0 auto;
+}
+.head .logo {
+    height: 65px;
+    float: left;
+}
+/*设置更多市场里面的内容*/
+.location{
+    width: 257px;
+}
+.location>li{
+    width: 57px;
+    height: 29px;
+    border: 1px solid #e3e4e5;
+    border-bottom: none;
+    color: #999;
+    position: relative;
+    left: -180px;
+    margin-top: 10px;
+    background: silver;
+}
+.location>li:hover{
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.location>li:hover .location-list{
+    display: block;
+    z-index: 100;
+}
+.location>li:hover:after{
+    content: "";
+    width: 57px;
+    height: 1px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    z-index: 100;
+}
+.words-box{
+    width: 50px;
+    margin: 2px auto 0;
+
+}
+.words-box .iconfont{
+    color: #f10215;
+}
+/*定位列表*/
+.location-list{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+    left: -1px;
+    top: 29px;
+    padding: 10px;
+    display: none;
+}
+.location-list li{
+    width: 52px;
+    height: 23px;
+    float: left;
+    margin: 0 10px 10px 0;
+    /*background: pink;*/
+    text-align: center;
+}
+.location-list li a{
+    color: #999;
+    display: block;
+    height: 100%;
+    line-height: 23px;
+}
+.location-list li a:hover{
+    background: #F4F4F4;
+    color: #C81623;
+}
+.inpt1{
+    margin-top: 15px;
+    width: 350px;
+    height: 30px;
+    border-color: red;
+    margin-right: 150px;
+}
+.input{
+    position: absolute;
+    right: 29.8px;
+    top: 22px;
+}
+.input .a{
+    background: #f82800;
+    font-size: 14px;
+    width: 80px;
+    color: #fff;
+    padding: 8px;
+}
+/*设置导航条*/
+.nav{
+
+	width: 100%;
+	height: 37px;
+
+
+}
+.daohang{
+	width: 1500px;
+	height: 35px;
+	margin: 0 auto;
+	border: 1px solid #fff;
+}
+.nav>ul>li{
+	float: left;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	padding-left: 120px;
+	
+}
+.nav>ul>li>a{
+	display: inline-block;
+	height: 35px;
+	color: #404040;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav>ul>li>a:hover{
+    color: #f00;
+}
+/*设置主题内容*/
+/*定义第一个盒子的内容*/
+.body-box-1{
+    width: 1200px;
+    height: 205px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.body-box-1 img{
+    float: left;
+}
+.body-box-1-1{
+    width: 385px;
+    height: 204px;
+}
+.body-box-1-2{
+    margin-left: 10px;
+}
+.body-box-1-2 ul{
+    width: 230px;
+    height: 200px;
+    margin-left: 5px;
+}
+.body-box-1-2 ul>li{
+    float: left;
+    padding-right: 25px;
+}
+.body-box-1-2 ul>li>a{
+    color:black;
+    font-size: 12px;
+
+}
+.body-box-1-2 ul>li>a:hover{
+    text-decoration: underline;
+}
+
+.body-box-1-2 p{
+        color: #878787;
+        height: 12px;
+        line-height: 12px;
+        text-align: center;
+        margin-top: 10px;
+}
+.body-box-1-2 h3{
+    margin-left: 80px;
+}
+
+/*设置第二个盒子的内容*/
+.body-box-2{
+    width: 1200px;
+    height: 275px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.body-box-2-1 li{
+    float: left;
+    margin-right: 100px;
+ 
+}
+.body-box-2-1 li .clearfix{
+    width: 100px;
+    height: 80px;
+}
+.body-box-2-1 li .clearfix>li{
+    margin-right: 5px;
+}
+.body-box-3{
+    width: 1200px;
+    height: 575px;
+    margin: 0 auto;
+}
+.body-box-3-p{
+    height: 1200px;
+    height: 45px;
+  background: #f4f4f4;
+}
+.body-box-3-p li{
+    float: left;
+    display: inline-block;
+    width: 145px;
+    height: 35px;
+    margin-left: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.body-box-3-p li a{
+    color: #666;
+    font-size: 15px;
+}
+.body-box-3-p li a:hover{
+
+    border-top: 1px solid #a9b922;
+    color: #a9b922;
+}
+
+.body-box-3-w{
+    width: 1200px;
+    height: 100%;
+}
+
+.body-box-3-w li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.body-box-3-w p{
+    height: 25px;
+    width: 150px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.body-box-3-w p>a{
+  color: #6c6c6c;
+}
+.body-box-3-w span{
+    color: #f40; 
+    font-weight: bold;
+}
+
+/*设置第四个盒子的内容*/
+.body-box-4{
+    width: 1200px;
+    height:100px;
+    margin: 0 auto;
+}
+
+.body-box-4 ul{
+    height: 40px;
+    background: #f5f5f5;
+    border: 1px solid silver;
+
+}
+.body-box-4 li{
+    float: left;
+    margin-right: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.body-box-4 .active{
+    background: #fff;
+    height: 40px;
+    width: 100px;
+}
+
+/*对所在地进行设置*/
+
+.body-box-4 .wpj{
+    margin-left: 20px;
+}
+.body-box-4 .wpj:hover{
+    background: #fff;
+      height: 40px;
+      width: 80px;
+}
+.wpj{
+    position: relative;
+}
+.wpj:hover .location-list{
+    display: block;
+    z-index: 100;
+    background: #fff;
+    width: 388px;
+    height: 100px;
+
+}
+.wpj:hover:after{
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    z-index: 100;
+}
+.location-list{
+    display: none;
+    position: absolute;
+}
+.location-list li{
+    float: left;
+}
+
+
+
+
+.body-box-4 .inp{
+    width: 250px;
+    height: 30px;
+     position: relative;
+}
+.body-box-4 .inp input{
+    width: 60px;
+    height: 15px;
+   
+}
+.body-box-4 .icon{
+    position: absolute;
+    left: 30px;
+    line-height: 30px;
+    width: 16px;
+    color: #999;
+
+}
+
+.body-box-4 .inp:hover{
+    background: #fff;
+    height: 40px;
+    border: 1px solid silver;
+
+}
+.body-box-4 li>a{
+    display: block;
+    color: black;
+    font-size: 15px;
+}
+.body-box-4 li>a:hover{
+    color: red;
+}
+
+/*定义第五个盒子*/
+
+.body-box-5{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.wpj1{
+    width: 1200px;
+    height: 380px;
+
+}
+.body-box-5 li{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+
+/*设置尾部*/
+.footer{
+    margin-top: 10px;
+}
+.footer-hd{
+    width: 1250px;
+    height: 60px;
+    margin: 0 auto;
+}
+.footer-hd span{
+    padding-left: 10px;
+}
+.footer-hd b{
+    padding: 0 5px;
+}
+.footer-bd{
+    width: 1250px;
+    height: 60px;
+    margin: 0 auto;
+}
+.footer-bd span{
+    padding-right: 5px;
+}
+.footer-bd em{
+    padding-left: 30px;
+    color: #9c9c9c;
+}
+.tb-footer-mod{
+    background: url(../images/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg) 0 0 no-repeat;
+}
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    color: red;
+}
